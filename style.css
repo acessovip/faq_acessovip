@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #d4d4d4; /* Cor de fundo mais escura */
     margin: 0;
     padding: 0;
     color: #363537;
@@ -12,6 +12,20 @@ body {
     overflow: hidden;
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.logo-container img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    background-color: #088745; /* Cor primária da página */
+    padding: 10px;
+}
+
 h1 {
     text-align: center;
     padding: 20px;
@@ -19,11 +33,12 @@ h1 {
 }
 
 .faq-section {
-    background: #fff;
-    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.8); /* Tornar o dropbox mais opaco */
+    margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Reduzir o tamanho horizontalmente em 20% */
 }
 
 .faq-section h2 {
